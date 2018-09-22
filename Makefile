@@ -11,3 +11,11 @@ DOCKER_CODE_PATH  = /var/www/html
 #			composer create-project --prefer-dist "laravel/laravel" /work "5.5.*" && \
 #			mv /work/* $(DOCKER_CODE_PATH) \
 #		'
+
+
+.PHONY: composer
+composer:
+	docker run --rm \
+		-v ${PWD}:$(DOCKER_CODE_PATH) \
+		$(DOCKER_IMAGE_NAME) \
+		sh -c 'composer ${ARG}'
