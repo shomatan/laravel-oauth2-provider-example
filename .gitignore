@@ -8,3 +8,6 @@ storage
 
 ### Docker specific
 volumes
+
+### Node specific
+node_modules
