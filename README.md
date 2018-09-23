@@ -17,4 +17,6 @@ https://readouble.com/laravel/5.5/en/passport.html
 ### 5. Setup front-end
     npm i
     npm run dev
+### 6. Deploy passport
+    make ARG="passport:keys" artisan
     
