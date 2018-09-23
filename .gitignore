@@ -5,3 +5,6 @@
 ### Laravel specific
 vendor
 storage
+
+### Docker specific
+volumes
