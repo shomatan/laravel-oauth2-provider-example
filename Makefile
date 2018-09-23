@@ -3,7 +3,7 @@ DOCKER_IMAGE_NAME   = shomatan/laravel-php-fpm:7.2.10-alpine
 DOCKER_CODE_PATH    = /var/www/html
 DOCKER_NETWORK_NAME = laravel_network
 DB_CONTAINER_NAME   = laravel-db
-DB_IMAGE_NAME       = mysql:8.0.12
+DB_IMAGE_NAME       = mysql:5.7
 
 #.PHONY: create-project
 #create-project:

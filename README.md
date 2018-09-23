@@ -8,4 +8,6 @@ https://readouble.com/laravel/5.5/en/passport.html
     make db-up
 ### 3. Migrate
     make ARG="migrate" artisan
+### 4. Install passport
+    make ARG="passport:install" artisan
     
